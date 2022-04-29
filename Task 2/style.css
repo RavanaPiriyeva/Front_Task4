@@ -1,0 +1,58 @@
+*{
+    box-sizing: border-box;
+}
+
+.header{
+    background-color: rgb(216, 215, 215);
+    padding: 2% 0 2% 2%;
+    margin-bottom: 5px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    background-color:  rgb(216, 215, 215);
+    margin-bottom: 5px;
+}
+
+main{
+    display: flex;
+    justify-content:space-between ;
+    height: 80vh;  
+}
+
+.big-box{
+height: 49%;
+margin-bottom: 5px;
+padding-top: 18%;
+padding-left: 5%;
+background-color: rgb(216, 215, 215); 
+}
+
+.section1{
+    margin-right: 5px;
+    display: flex;
+    width: 50%;
+    flex-direction:column ;
+}
+
+.section2{
+    display: flex;
+    width: 50%;
+    flex-direction:column ;
+    gap: 1vh 0;
+}
+
+.sml-box{
+ height: 19vh;
+ padding-top: 8%;
+ padding-left: 5%;
+ background-color: rgb(216, 215, 215); 
+}
+
+.footer{
+    margin-top: 5px;
+    background-color: rgb(216, 215, 215); 
+    height: 3vh; 
+    padding-left: 2%;
+}
